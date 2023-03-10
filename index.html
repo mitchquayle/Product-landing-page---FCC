@@ -27,7 +27,7 @@
     </div>
     <div class="container">
         <section id="whats_on_offer">
-            <iframe width="426" height="240" src="https://www.youtube.com/embed/2IM3R3yUtP8"
+            <iframe id="video" width="426" height="240" src="https://www.youtube.com/embed/2IM3R3yUtP8"
                 title="Digital Storm: The Future"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -42,17 +42,17 @@
 
         <section id="mail-us-section">
 
-            <form action="https://www.freecodecamp.com/email-submit" method="post" id="qform">
+            <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
 
                 <label for="name">Name:</label><br>
-                <input type="text" name="name" placeholder="Enter name" required><br>
+                <input type="text" name="name" id="name" placeholder="Enter name" required><br>
 
                 <label for="email">E-mail:</label><br>
-                <input type="email" name="email" placeholder="Enter Email" required><br>
+                <input type="email" name="email" id="email" placeholder="Enter Email" required><br>
 
                 <label for="queries">Any questions about the service?:</label><br>
 
-                <textarea rows="5" cols="50" name="queries" form="qform">Enter questions here...</textarea>
+                <textarea rows="5" cols="50" name="queries" id="queries" form="form">Enter questions here...</textarea>
 
 
 
