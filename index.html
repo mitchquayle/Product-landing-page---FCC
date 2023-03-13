@@ -5,102 +5,106 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts.google.com/specimen/Roboto">
     <title>Product landing page</title>
 </head>
 
 <body>
     <header id="header">
         <div class="logo">
-            <img id="header-img" href="https://imgbb.com/" src="https://i.ibb.co/Wt3WxbN/JIscx17-Imgur.png">
+            <img id="header-img" src="https://i.ibb.co/Wt3WxbN/JIscx17-Imgur.png" alt="Ports computer Logo">
         </div>
         <nav id="nav-bar">
             <ul>
-                <li><a class="nav-link" href="#whats_on_offer">What's on offer</a></li>
-                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#What_we_do">What we do</a></li>
                 <li><a class="nav-link" href="#pricing">Pricing</a></li>
                 <li><a class="nav-link" href="#queries_form">Queries form</a></li>
             </ul>
         </nav>
     </header>
-
+    <br>
     <div class="container">
     </div>
     <div class="container">
-        <section id="whats_on_offer">
+        <section id="What_we_do">
+            <h2>What we do</h2>
             <iframe id="video" width="426" height="240" src="https://www.youtube.com/embed/2IM3R3yUtP8"
                 title="Digital Storm: The Future"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </section>
-        <section id="features">
-
-        </section>
-
+        <br>
         <section id="pricing">
+            <h2>What's on offer</h2>
             <div class="flex-container">
-                <div>1st tier pc
-
-                </div>
-                <div>£999 value pc
-                    <img> placeholder 250 x 250 px
+                <div class="build-bundles">
+                    <h3>AMD Ryzen 5 - Value Gaming value build</h3>
+                    <img src="https://i.ibb.co/7gBrhkz/Custom-build-999.webp" alt="Custom-build-999">
                     <ul class="system-spec-list">
                         <li> Windows 11 Home (64-bit Edition)</li>
                         <li> AMD Ryzen™ 5 5500 6-Core CPU</li>
                         <li> 16GB DDR4 3200mhz Memory</li>
-                        <li> MSI GeForce® RTX 3060 Ti 8GB Video Card</li>
+                        <li> GeForce® <span class="specs-highlight">RTX 3060 Ti 8GB</span> Video Card</li>
                         <li> Gigabyte B550M DS3H: m-ATX Motherboard</li>
                         <li> 1TB Solidigm P41 Plus M.2 SSD</li>
                         <li> AMD Ryzen Wraith CPU Cooler</li>
                         <li> Cyberpower Blaze Black Case</li>
                     </ul>
+                    <p class="pc-price">£999</p>
                 </div>
 
-                <div>£1525 pc
+                <div class="build-bundles">
+                    <h3>Intel i9 - Essential Gaming build</h3>
+                    <img src="https://i.ibb.co/THF7m1L/Custom-build-1500.webp" alt="Custom-build-1500">
                     <ul class="system-spec-list">
                         <li> Windows 11 Home (64-bit Edition)</li>
                         <li> Intel® Core™ 11th Gen i9-11900KF 8-Core CPU</li>
                         <li> 16GB DDR4 3200mhz Memory</li>
-                        <li> MSI GeForce® RTX 3060 Ti 8GB Video Card</li>
+                        <li> GeForce® <span class="specs-highlight">RTX 3060 Ti 8GB</span> Video Card</li>
                         <li> ASROCK Z590 Pro4 ATX Motherboard</li>
                         <li> 2TB Intel 660P M.2 SSD</li>
                         <li> MSI MAG Coreliquid 240R V2 240mm Liquid Cooling</li>
-                        <li> Cyberpower Lancool PC-008 Gaming Case</li>
+                        <li> Cyberpower Lancool PC-008 Case</li>
                     </ul>
-
+                    <p class="pc-price">£1525</p>
                 </div>
 
-                <div>£2500 pc
-                    <ul class="g-sys-spec">
+                <div class="build-bundles">
+                    <h3>Intel i7 - Premium Gaming build</h3>
+                    <img src="https://i.ibb.co/xqMfLwp/Custom-build-2500.webp" alt="Custom-build-2500">
+                    <ul class="system-spec-list">
                         <li> Windows 11 Home (64-bit Edition)</li>
                         <li> Intel® Core™ Processor i7-13700KF</li>
                         <li> 32GB DDR5 4800mhz Memory</li>
-                        <li> GeForce® <span class="VC">RTX 4080</span> 16GB Video Card</li>
+                        <li> GeForce® <span class="specs-highlight">RTX 4080 16GB</span> Video Card </li>
                         <li> ASUS PRIME Z690-P ATX MB</li>
                         <li> 1TB WD_BLACK SN850X NVMe PCIe Gen4 SSD</li>
                         <li> MSI MAG Coreliquid 240R V2 240mm Liquid Cooling</li>
-                        <li> Lian Li Lancool-216 ARGB Gaming Case</li>
+                        <li> Lian Li Lancool-216 ARGB Case</li>
                     </ul>
-
+                    <p class="pc-price">£2500</p>
                 </div>
 
-                <div>£3250 pc
-                    <ul class="g-sys-spec">
+                <div class="build-bundles">
+                    <h3 class="gaming-bundle-header">Intel i9 - Ultra Gaming build</h3>
+                    <img src="https://i.ibb.co/5hVK9FX/Custom-build-3250.webp" alt="Custom-build-3250">
+                    <ul class="system-spec-list">
                         <li> Windows 11 Home (64-bit Edition)</li>
                         <li> Intel® Core™ i9-13900KF</li>
                         <li> 32GB DDR5 4800mhz Memory</li>
-                        <li> MSI GeForce® <span class="VC">RTX 4090</span> 24GB Video Card</li>
+                        <li> GeForce® <span class="specs-highlight">RTX 4090 24GB</span> Video Card</li>
                         <li> ASRock Z790 PG Lightning ATX Motherboard</li>
                         <li> 1TB Solidigm P44 Pro M.2 SSD</li>
                         <li> Cooler Master CPU Water Cooling</li>
-                        <li> Lian Li O11 Air Mini Gaming Case</li>
+                        <li> Lian Li O11 Air Mini Case</li>
                     </ul>
-
+                    <p class="pc-price">£3250</p>
                 </div>
             </div>
 
         </section>
-
         <section id="queries_form">
+            <h2>Submit any questions below</h2>
 
             <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
 
@@ -112,7 +116,8 @@
 
                 <label for="queries">Any questions about the service?:</label><br>
 
-                <textarea rows="5" cols="50" name="queries" id="queries" form="form">Enter questions here...</textarea>
+                <textarea rows="5" cols="50" name="queries" id="queries"
+                    form="form">Enter questions here...</textarea><br>
 
                 <input id="submit" type="submit">
                 <input type="reset">
